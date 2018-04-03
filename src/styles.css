@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 100px;
+    font-weight: bold;
+  }
+  
+  .topnav a {
+    float: left;
+    color:midnightblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    margin: auto;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: orangered;
+  }
+  
+  .topnav a.active {
+    background-color: #ffffff;
+    color: orangered;
+  }
+
+
+  .logo img {
+
+    height: 100px;
+    width:  85px;
+    z-index: 1;
+   	
+
+  }
+  .background {
+
+    height: 200px;
+
+  }

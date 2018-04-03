@@ -1,0 +1,18 @@
+<div class="backgroundImage"><br/>
+  <div class="row">
+      <div style="z-index: 1;position:fixed;" class="col-xs-3 menu">
+          <ul>
+            <li *ngFor="let artist of artistData;" ng-init="ArtistName=4" (click)="artistSelected(artist.name)">{{artist.name}}</li>
+          </ul>
+        </div>
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-9 white">
+          <h1>{{ArtistName}}</h1><br/>
+          <p class="listItem">{{ArtistDetails1}}</p>
+          <p class="listItem">{{ArtistDetails2}}</p>
+        </div>
+      </div>
+  
+  </div>
+  

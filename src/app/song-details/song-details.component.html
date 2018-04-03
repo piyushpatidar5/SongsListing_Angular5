@@ -1,0 +1,23 @@
+
+<h2>Listing Song {{songDetails.track_title}} Details</h2>
+
+<h3>{{errorMessage}}</h3>
+
+
+<ul>
+  <li>
+ Song's Name is : {{songDetails.track_title}}</li>
+  <li>
+ Artists are :-
+  <ul>
+    <li *ngFor="let artist of songDetails.artist">
+    {{artist.name}}
+    </li>
+  </ul>  
+  </li>
+  <li>
+    <img src={{songDetails.artwork_large}} />
+  </li>
+  
+</ul>
+

@@ -1,0 +1,13 @@
+
+<h2>Listing Songs</h2>
+
+<h3>{{errorMessage}}</h3>
+
+
+<ul>
+  <li *ngFor="let item of songs">
+      <a routerLink="/songDetails/{{item['_id']}}">{{item.track_title}}</a>
+  </li>
+  
+</ul>
+
